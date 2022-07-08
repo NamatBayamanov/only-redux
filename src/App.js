@@ -1,9 +1,12 @@
+import Counter from "./components/Conter/Counter";
+import Name from "./components/Name/Name";
 
 
 function App() {
   return (
     <div className="App">
-      hello world
+      <Counter/>
+      <Name/>
     </div>
   );
 }
