@@ -19,6 +19,9 @@ const colculater = createSlice(
       devide: (state, action) => {
         state.number = action.payload;
       },
+      reset: (state, action) => {
+        state.number = action.payload;
+      },
     },
   }
 );
