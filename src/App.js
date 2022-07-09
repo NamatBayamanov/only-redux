@@ -1,3 +1,4 @@
+import Colculater from "./components/Colculater/Colculater";
 import Counter from "./components/Conter/Counter";
 import Name from "./components/Name/Name";
 
@@ -7,6 +8,8 @@ function App() {
     <div className="App">
       <Counter/>
       <Name/>
+
+      <Colculater/>
     </div>
   );
 }
